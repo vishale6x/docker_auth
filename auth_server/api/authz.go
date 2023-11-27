@@ -50,6 +50,7 @@ type AuthRequestInfo struct {
 	Type    string
 	Name    string
 	Service string
+	clientIp string
 	IP      net.IP
 	Actions []string
 	Labels  Labels
